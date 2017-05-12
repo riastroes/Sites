@@ -19,5 +19,6 @@ function goHome(){
   document.location.href = "/index.html"
 }
 function show(projectname){
-  document.location.href = "/Projects/" + projectname + "/index.html"
+ 
+  document.location.href = "Projects/" + projectname + "/index.html"
 }
