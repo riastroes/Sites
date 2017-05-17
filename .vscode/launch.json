@@ -4,16 +4,16 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "localhost RS-2017",
-            "url": "http://localhost/Sites/RS-2017",
-            "webRoot": "${workspaceRoot}/RS-2017"
+            "name": "localhost",
+            "url": "http://localhost/Sites/RS-2017/index.html",
+            "webRoot": "${workspaceRoot}"
         },
         {
             "type": "chrome",
             "request": "attach",
             "name": "Attach to Chrome",
             "port": 9222,
-            "webRoot": "${workspaceRoot}/RS-2017"
+            "webRoot": "${workspaceRoot}"
         }
     ]
 }
